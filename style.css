@@ -52,11 +52,83 @@ body {
     /* 陰影 */
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
     /* 外框 */
-    border: 1px solid #51515130;
+    border: 1px solid #0d0d0d;
     /* 變形, 幅度為 .3rem (圓角矩形) */
     border-radius: .3rem;
     /* 過度動畫長度指定半秒鐘 */
     transition: all .5s;
+    background-color: aqua;
+}
+
+.wrapper {
+    /* flex布局 */
+    display: flex;
+    /* 垂直排列 */
+    flex-direction: column;
+    /* 子元素間距2.5rem */
+    gap: 2.5rem;
+}
+
+.wrapper .btn1 {
+    width: 50rem;
+    /* 撐開內邊距 */
+    padding: 3%;
+    /* 陰影 */
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    /* 外框 */
+    border: 1px solid #0d0d0d;
+    /* 變形, 幅度為 .3rem (圓角矩形) */
+    border-radius: .3rem;
+    /* 過度動畫長度指定半秒鐘 */
+    transition: all .5s;
+    background-color: rgb(29, 199, 91);
+}
+
+
+.wrapper .btn2 {
+    width: 50rem;
+    /* 撐開內邊距 */
+    padding: 3%;
+    /* 陰影 */
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    /* 外框 */
+    border: 1px solid #0d0d0d;
+    /* 變形, 幅度為 .3rem (圓角矩形) */
+    border-radius: .3rem;
+    /* 過度動畫長度指定半秒鐘 */
+    transition: all .5s;
+    background-color: rgb(229, 22, 177);
+}
+
+.wrapper .btn3 {
+    width: 50rem;
+    /* 撐開內邊距 */
+    padding: 3%;
+    /* 陰影 */
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    /* 外框 */
+    border: 1px solid #0d0d0d;
+    /* 變形, 幅度為 .3rem (圓角矩形) */
+    border-radius: .3rem;
+    /* 過度動畫長度指定半秒鐘 */
+    transition: all .5s;
+    background-color: rgb(193, 199, 29);
+}
+
+
+.wrapper .btn4 {
+    width: 50rem;
+    /* 撐開內邊距 */
+    padding: 3%;
+    /* 陰影 */
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    /* 外框 */
+    border: 1px solid #0d0d0d;
+    /* 變形, 幅度為 .3rem (圓角矩形) */
+    border-radius: .3rem;
+    /* 過度動畫長度指定半秒鐘 */
+    transition: all .5s;
+    background-color: rgb(191, 221, 19);
 }
 
 /* 冒號的意思是選擇虛擬類別 */
@@ -64,7 +136,7 @@ body {
 /* 虛擬類別選擇器, 這裡選擇這東西被滑鼠懸停時的狀態 */
 .wrapper .btn:hover {
     /* 外框 */
-    border: 1px solid #51515150;
+    border: 1px solid #0e0d0d;
     /* 陰影 */
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
