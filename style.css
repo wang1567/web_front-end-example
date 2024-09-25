@@ -58,16 +58,9 @@ body {
     /* 過度動畫長度指定半秒鐘 */
     transition: all .5s;
     background-color: aqua;
+    color: darkkhaki;
 }
 
-.wrapper {
-    /* flex布局 */
-    display: flex;
-    /* 垂直排列 */
-    flex-direction: column;
-    /* 子元素間距2.5rem */
-    gap: 2.5rem;
-}
 
 .wrapper .btn1 {
     width: 50rem;
@@ -82,6 +75,7 @@ body {
     /* 過度動畫長度指定半秒鐘 */
     transition: all .5s;
     background-color: rgb(29, 199, 91);
+    color: crimson;
 }
 
 
@@ -98,6 +92,7 @@ body {
     /* 過度動畫長度指定半秒鐘 */
     transition: all .5s;
     background-color: rgb(229, 22, 177);
+    color: darkblue;
 }
 
 .wrapper .btn3 {
@@ -113,6 +108,7 @@ body {
     /* 過度動畫長度指定半秒鐘 */
     transition: all .5s;
     background-color: rgb(193, 199, 29);
+    color: darkgreen;
 }
 
 
@@ -128,7 +124,8 @@ body {
     border-radius: .3rem;
     /* 過度動畫長度指定半秒鐘 */
     transition: all .5s;
-    background-color: rgb(191, 221, 19);
+    background-color: rgba(228, 228, 130, 0.973);
+    color: darkorchid;
 }
 
 /* 冒號的意思是選擇虛擬類別 */
